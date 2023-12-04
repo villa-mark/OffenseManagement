@@ -65,8 +65,7 @@ public class ProjectView{
       if(!visible){button.setBackground(null);}
       else{button.setBackground(new Color(color));}
       
-      butt
-      on.setBorder(new LineBorder(new Color(borderColor), borderThickness));
+      button.setBorder(new LineBorder(new Color(borderColor), borderThickness));
     }
    public static void changeStateButton(JButton button, String fontStyle, int fontSize, int foregroundColor, int backgroundColor, int borderColor, int borderThickness){
     button.setFont(new Font(fontStyle, Font.BOLD, fontSize));
